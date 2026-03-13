@@ -1,7 +1,7 @@
 "use client";
 
-import { useEffect, useRef } from "react";
 import "leaflet/dist/leaflet.css";
+import { useEffect, useRef } from "react";
 
 interface Marker {
   lat: number;
@@ -15,7 +15,6 @@ interface MapSectionProps {
 
 export default function MapSection({ markers }: MapSectionProps) {
   const mapRef = useRef<HTMLDivElement>(null);
-  const mapInstanceRef = useRef<unknown>(null);
 
   useEffect(() => {
     if (!mapRef.current) return;

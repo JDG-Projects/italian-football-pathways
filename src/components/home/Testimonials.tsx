@@ -1,6 +1,6 @@
-import { useTranslations } from "next-intl";
 import Section from "@/components/shared/Section";
 import SectionHeading from "@/components/shared/SectionHeading";
+import { useTranslations } from "next-intl";
 
 export default function Testimonials() {
   const t = useTranslations("homepage.testimonials");
@@ -17,9 +17,9 @@ export default function Testimonials() {
         {items.map((item, i) => (
           <div
             key={item.name}
-            className="group relative rounded-sm border border-cream-dark bg-cream/50 p-8 transition-all duration-400 hover:border-gold/30 hover:bg-white hover:shadow-lg hover:shadow-navy/5"
+            className="group relative rounded-sm border border-cream-dark bg-cream/50 p-8 pt-9 transition-all duration-400 hover:border-gold/30 hover:bg-white hover:shadow-lg hover:shadow-navy/5"
           >
-            <div className="absolute -top-2 left-6 font-display text-6xl leading-none text-gold/20 transition-colors duration-400 group-hover:text-gold/30">
+            <div className="absolute top-0 left-6 font-display text-6xl leading-none text-gold/20 transition-colors duration-400 group-hover:text-gold/30">
               &ldquo;
             </div>
 

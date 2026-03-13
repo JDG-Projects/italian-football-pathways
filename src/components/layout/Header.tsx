@@ -1,10 +1,10 @@
 "use client";
 
-import { useState, useEffect } from "react";
-import { useTranslations, useLocale } from "next-intl";
 import { Link, usePathname, useRouter } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
 import { siteConfig } from "@/lib/config";
+import { useLocale, useTranslations } from "next-intl";
+import { useEffect, useState } from "react";
 
 const navLinks = [
   { key: "home" as const, href: "/" as const },
@@ -40,12 +40,14 @@ export default function Header() {
   }, []);
 
   function switchLocale(nextLocale: string) {
-    router.replace(pathname, { locale: nextLocale as (typeof routing.locales)[number] });
+    router.replace(pathname, {
+      locale: nextLocale as (typeof routing.locales)[number],
+    });
   }
 
   return (
     <header
-      className={`sticky top-0 z-50 transition-all duration-500 ${
+      className={`sticky top-0 z-[9999] transition-all duration-500 ${
         scrolled
           ? "bg-navy/95 shadow-lg shadow-navy/10 backdrop-blur-md"
           : "bg-cream border-b border-cream-dark"

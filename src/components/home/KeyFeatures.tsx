@@ -1,6 +1,6 @@
-import { useTranslations } from "next-intl";
 import Section from "@/components/shared/Section";
 import SectionHeading from "@/components/shared/SectionHeading";
+import { useTranslations } from "next-intl";
 
 export default function KeyFeatures() {
   const t = useTranslations("homepage.features");
@@ -12,9 +12,7 @@ export default function KeyFeatures() {
 
   return (
     <Section bg="cream">
-      <SectionHeading subtitle={t("subtitle")}>
-        {t("heading")}
-      </SectionHeading>
+      <SectionHeading subtitle={t("subtitle")}>{t("heading")}</SectionHeading>
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {items.map((item, i) => (
           <div
@@ -22,7 +20,7 @@ export default function KeyFeatures() {
             className="group relative overflow-hidden rounded-sm border border-cream-dark bg-white p-7 transition-all duration-500 hover:-translate-y-1 hover:shadow-xl hover:shadow-navy/5"
             style={{ animationDelay: `${i * 100}ms` }}
           >
-            <div className="absolute -right-2 -top-4 font-display text-[5rem] font-bold leading-none text-cream-dark transition-colors duration-500 group-hover:text-gold/10">
+            <div className="absolute right-2 -top-4 font-display text-[5rem] font-bold leading-none text-cream-dark transition-colors duration-500 group-hover:text-gold/10">
               {String(i + 1).padStart(2, "0")}
             </div>
 

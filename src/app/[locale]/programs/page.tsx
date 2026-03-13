@@ -1,9 +1,9 @@
-import { getTranslations, setRequestLocale } from "next-intl/server";
-import { mapMarkers } from "@/lib/config";
+import FinalCTA from "@/components/shared/FinalCTA";
+import MapSectionLoader from "@/components/shared/MapSectionLoader";
 import Section from "@/components/shared/Section";
 import SectionHeading from "@/components/shared/SectionHeading";
-import MapSectionLoader from "@/components/shared/MapSectionLoader";
-import FinalCTA from "@/components/shared/FinalCTA";
+import { mapMarkers } from "@/lib/config";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 
 export default async function ProgramsPage({
   params,
@@ -59,7 +59,7 @@ export default async function ProgramsPage({
               key={program.title}
               className="group relative overflow-hidden rounded-sm border border-cream-dark bg-white p-8 transition-all duration-400 hover:-translate-y-1 hover:border-gold/30 hover:shadow-xl hover:shadow-navy/5"
             >
-              <div className="absolute -right-2 -top-4 font-display text-[5rem] font-bold leading-none text-cream-dark transition-colors duration-500 group-hover:text-gold/10">
+              <div className="absolute right-2 -top-4 font-display text-[5rem] font-bold leading-none text-cream-dark transition-colors duration-500 group-hover:text-gold/10">
                 {String(i + 1).padStart(2, "0")}
               </div>
 
