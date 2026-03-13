@@ -94,7 +94,7 @@ export default function Header() {
                 onClick={() => switchLocale(loc)}
                 className={`rounded-sm px-2 py-1 text-[11px] font-semibold uppercase tracking-wider transition-all duration-300 ${
                   locale === loc
-                    ? "bg-gold text-navy"
+                    ? "bg-gold text-white"
                     : scrolled
                       ? "text-white/50 hover:text-white"
                       : "text-navy/40 hover:text-navy"
