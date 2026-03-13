@@ -1,13 +1,25 @@
-import { servicesPage } from "@/lib/content";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import Section from "@/components/shared/Section";
 import SectionHeading from "@/components/shared/SectionHeading";
-import Card from "@/components/shared/Card";
 import FinalCTA from "@/components/shared/FinalCTA";
 
-export default function ServicesPage() {
+export default async function ServicesPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  const t = await getTranslations("servicesPage");
+
+  const services = t.raw("services") as Array<{
+    title: string;
+    description: string;
+    features: string[];
+  }>;
+
   return (
     <>
-      {/* Hero */}
       <section className="relative -mt-[72px] overflow-hidden bg-navy pt-[72px]">
         <div className="absolute inset-0 opacity-[0.03]">
           {Array.from({ length: 5 }).map((_, i) => (
@@ -21,29 +33,25 @@ export default function ServicesPage() {
         <div className="relative mx-auto max-w-4xl px-6 py-20 text-center sm:py-28 lg:px-8">
           <div className="mx-auto mb-5 h-0.5 w-12 bg-gold" />
           <h1 className="animate-fade-in-up font-display text-4xl font-bold text-white sm:text-5xl lg:text-6xl">
-            {servicesPage.hero.title}
+            {t("hero.title")}
           </h1>
           <p className="animate-fade-in-up delay-200 mt-5 text-base text-white/50 sm:text-lg">
-            {servicesPage.hero.subtitle}
+            {t("hero.subtitle")}
           </p>
         </div>
         <div className="absolute bottom-0 left-0 right-0 h-16 bg-cream [clip-path:polygon(0_100%,100%_0,100%_100%)]" />
       </section>
 
       <Section bg="cream">
-        <SectionHeading subtitle="Від першої консультації до успішної адаптації в Італії">
-          Що ми пропонуємо
-        </SectionHeading>
+        <SectionHeading subtitle={t("subtitle")}>{t("heading")}</SectionHeading>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {servicesPage.services.map((service, i) => (
+          {services.map((service, i) => (
             <div
               key={service.title}
               className="group relative overflow-hidden rounded-sm border border-cream-dark bg-white p-7 transition-all duration-400 hover:-translate-y-1 hover:border-gold/30 hover:shadow-xl hover:shadow-navy/5"
             >
-              {/* Left gold accent */}
               <div className="absolute left-0 top-0 h-full w-0.5 bg-gold opacity-0 transition-opacity duration-400 group-hover:opacity-100" />
 
-              {/* Step number */}
               <div className="mb-4 flex h-8 w-8 items-center justify-center rounded-full border border-cream-dark font-display text-xs font-bold text-warm-gray transition-all duration-400 group-hover:border-gold group-hover:bg-gold group-hover:text-navy">
                 {i + 1}
               </div>

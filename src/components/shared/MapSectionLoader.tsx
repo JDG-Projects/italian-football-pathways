@@ -12,7 +12,7 @@ const MapSection = dynamic(() => import("./MapSection"), {
   ssr: false,
   loading: () => (
     <div className="flex h-[400px] w-full items-center justify-center rounded-xl border border-gray-100 bg-gray-light text-sm text-gray">
-      Завантаження карти...
+      ...
     </div>
   ),
 });

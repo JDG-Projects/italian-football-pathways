@@ -1,4 +1,4 @@
-import { aboutPage } from "@/lib/content";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import Section from "@/components/shared/Section";
 import SectionHeading from "@/components/shared/SectionHeading";
 import Card from "@/components/shared/Card";
@@ -30,30 +30,47 @@ function PageHero({ title, subtitle }: { title: string; subtitle: string }) {
   );
 }
 
-export default function AboutPage() {
+export default async function AboutPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  const t = await getTranslations("aboutPage");
+
+  const stats = t.raw("history.stats") as Array<{
+    value: string;
+    label: string;
+  }>;
+  const members = t.raw("team.members") as Array<{
+    name: string;
+    role: string;
+    bio: string;
+  }>;
+  const values = t.raw("values.items") as Array<{
+    title: string;
+    description: string;
+  }>;
+
   return (
     <>
-      <PageHero
-        title={aboutPage.hero.title}
-        subtitle={aboutPage.hero.subtitle}
-      />
+      <PageHero title={t("hero.title")} subtitle={t("hero.subtitle")} />
 
-      {/* Mission */}
-      <Section id={aboutPage.mission.id} bg="cream">
-        <SectionHeading>{aboutPage.mission.heading}</SectionHeading>
+      <Section id="mission" bg="cream">
+        <SectionHeading>{t("mission.heading")}</SectionHeading>
         <p className="mx-auto max-w-3xl text-center text-base leading-relaxed text-warm-gray sm:text-lg">
-          {aboutPage.mission.text}
+          {t("mission.text")}
         </p>
       </Section>
 
-      {/* History + Stats */}
-      <Section id={aboutPage.history.id} bg="white">
-        <SectionHeading>{aboutPage.history.heading}</SectionHeading>
+      <Section id="history" bg="white">
+        <SectionHeading>{t("history.heading")}</SectionHeading>
         <p className="mx-auto mb-14 max-w-3xl text-center text-base leading-relaxed text-warm-gray sm:text-lg">
-          {aboutPage.history.text}
+          {t("history.text")}
         </p>
         <div className="grid grid-cols-2 gap-8 lg:grid-cols-4">
-          {aboutPage.history.stats.map((stat, i) => (
+          {stats.map((stat) => (
             <div
               key={stat.label}
               className="group relative overflow-hidden rounded-sm border border-cream-dark bg-cream/50 p-6 text-center transition-all duration-400 hover:border-gold/30 hover:shadow-lg"
@@ -70,14 +87,13 @@ export default function AboutPage() {
         </div>
       </Section>
 
-      {/* Team */}
-      <Section id={aboutPage.team.id} bg="cream">
-        <SectionHeading>{aboutPage.team.heading}</SectionHeading>
+      <Section id="team" bg="cream">
+        <SectionHeading>{t("team.heading")}</SectionHeading>
         <p className="mx-auto mb-14 max-w-3xl text-center text-base leading-relaxed text-warm-gray sm:text-lg">
-          {aboutPage.team.text}
+          {t("team.text")}
         </p>
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-          {aboutPage.team.members.map((member) => (
+          {members.map((member) => (
             <div
               key={member.name}
               className="group relative overflow-hidden rounded-sm border border-cream-dark bg-white p-8 text-center transition-all duration-400 hover:-translate-y-1 hover:border-gold/30 hover:shadow-xl hover:shadow-navy/5"
@@ -103,11 +119,10 @@ export default function AboutPage() {
         </div>
       </Section>
 
-      {/* Values */}
-      <Section id={aboutPage.values.id} bg="white">
-        <SectionHeading>{aboutPage.values.heading}</SectionHeading>
+      <Section id="values" bg="white">
+        <SectionHeading>{t("values.heading")}</SectionHeading>
         <div className="grid gap-6 sm:grid-cols-2">
-          {aboutPage.values.items.map((item) => (
+          {values.map((item) => (
             <Card
               key={item.title}
               title={item.title}

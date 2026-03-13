@@ -1,7 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { contactPage } from "@/lib/content";
+import { useTranslations } from "next-intl";
+import { submitContactForm } from "@/utils/actions/sendTgMessage";
 
 interface FormData {
   name: string;
@@ -17,7 +18,7 @@ interface FormErrors {
 }
 
 export default function ContactForm() {
-  const { form } = contactPage;
+  const t = useTranslations("contactPage.form");
   const [data, setData] = useState<FormData>({
     name: "",
     email: "",
@@ -26,18 +27,20 @@ export default function ContactForm() {
   });
   const [errors, setErrors] = useState<FormErrors>({});
   const [submitted, setSubmitted] = useState(false);
+  const [sending, setSending] = useState(false);
+  const [sendError, setSendError] = useState<string | null>(null);
 
   function validate(): FormErrors {
     const e: FormErrors = {};
-    if (!data.name.trim()) e.name = form.errors.nameRequired;
-    if (!data.email.trim()) e.email = form.errors.emailRequired;
+    if (!data.name.trim()) e.name = t("errors.nameRequired");
+    if (!data.email.trim()) e.email = t("errors.emailRequired");
     else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(data.email))
-      e.email = form.errors.emailInvalid;
-    if (!data.message.trim()) e.message = form.errors.messageRequired;
+      e.email = t("errors.emailInvalid");
+    if (!data.message.trim()) e.message = t("errors.messageRequired");
     return e;
   }
 
-  function handleSubmit(e: React.FormEvent) {
+  async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     const validationErrors = validate();
     if (Object.keys(validationErrors).length > 0) {
@@ -45,11 +48,21 @@ export default function ContactForm() {
       return;
     }
     setErrors({});
-    setSubmitted(true);
+    setSendError(null);
+    setSending(true);
+
+    const result = await submitContactForm(data);
+    setSending(false);
+
+    if (result.ok) {
+      setSubmitted(true);
+    } else {
+      setSendError(t("errors.sendFailed"));
+    }
   }
 
   function handleChange(
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) {
     setData({ ...data, [e.target.name]: e.target.value });
     if (errors[e.target.name as keyof FormErrors]) {
@@ -61,12 +74,22 @@ export default function ContactForm() {
     return (
       <div className="rounded-sm border border-green-accent/20 bg-green-accent/5 p-10 text-center">
         <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-green-accent/10">
-          <svg className="h-7 w-7 text-green-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-            <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+          <svg
+            className="h-7 w-7 text-green-accent"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            strokeWidth={2}
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M5 13l4 4L19 7"
+            />
           </svg>
         </div>
         <p className="font-display text-lg font-bold text-navy">
-          {form.success}
+          {t("success")}
         </p>
       </div>
     );
@@ -79,14 +102,14 @@ export default function ContactForm() {
     <form onSubmit={handleSubmit} className="space-y-5" noValidate>
       <div>
         <label className="mb-2 block text-[11px] font-semibold uppercase tracking-[0.15em] text-navy">
-          {form.nameLabel}
+          {t("nameLabel")}
         </label>
         <input
           type="text"
           name="name"
           value={data.name}
           onChange={handleChange}
-          placeholder={form.namePlaceholder}
+          placeholder={t("namePlaceholder")}
           className={inputClass}
         />
         {errors.name && (
@@ -96,14 +119,14 @@ export default function ContactForm() {
 
       <div>
         <label className="mb-2 block text-[11px] font-semibold uppercase tracking-[0.15em] text-navy">
-          {form.emailLabel}
+          {t("emailLabel")}
         </label>
         <input
           type="email"
           name="email"
           value={data.email}
           onChange={handleChange}
-          placeholder={form.emailPlaceholder}
+          placeholder={t("emailPlaceholder")}
           className={inputClass}
         />
         {errors.email && (
@@ -113,27 +136,27 @@ export default function ContactForm() {
 
       <div>
         <label className="mb-2 block text-[11px] font-semibold uppercase tracking-[0.15em] text-navy">
-          {form.phoneLabel}
+          {t("phoneLabel")}
         </label>
         <input
           type="tel"
           name="phone"
           value={data.phone}
           onChange={handleChange}
-          placeholder={form.phonePlaceholder}
+          placeholder={t("phonePlaceholder")}
           className={inputClass}
         />
       </div>
 
       <div>
         <label className="mb-2 block text-[11px] font-semibold uppercase tracking-[0.15em] text-navy">
-          {form.messageLabel}
+          {t("messageLabel")}
         </label>
         <textarea
           name="message"
           value={data.message}
           onChange={handleChange}
-          placeholder={form.messagePlaceholder}
+          placeholder={t("messagePlaceholder")}
           rows={5}
           className={inputClass}
         />
@@ -142,14 +165,23 @@ export default function ContactForm() {
         )}
       </div>
 
+      {sendError && (
+        <p className="rounded-sm border border-red-accent/20 bg-red-accent/5 px-4 py-3 text-sm text-red-accent">
+          {sendError}
+        </p>
+      )}
+
       <button
         type="submit"
-        className="group w-full rounded-sm bg-gold px-8 py-3.5 text-[13px] font-semibold uppercase tracking-widest text-white transition-all duration-300 hover:bg-gold-light hover:shadow-lg hover:shadow-gold/20"
+        disabled={sending}
+        className="group w-full rounded-sm bg-gold px-8 py-3.5 text-[13px] font-semibold uppercase tracking-widest text-white transition-all duration-300 hover:bg-gold-light hover:shadow-lg hover:shadow-gold/20 disabled:cursor-not-allowed disabled:opacity-60"
       >
-        {form.submit}
-        <span className="ml-2 inline-block transition-transform duration-300 group-hover:translate-x-1">
-          →
-        </span>
+        {sending ? t("sending") : t("submit")}
+        {!sending && (
+          <span className="ml-2 inline-block transition-transform duration-300 group-hover:translate-x-1">
+            →
+          </span>
+        )}
       </button>
     </form>
   );

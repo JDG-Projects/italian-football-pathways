@@ -1,10 +1,12 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { siteConfig } from "@/lib/content";
+import { useTranslations } from "next-intl";
+import { siteConfig } from "@/lib/config";
 
 export default function WhatsAppButton() {
   const [visible, setVisible] = useState(false);
+  const t = useTranslations("common");
 
   useEffect(() => {
     const timer = setTimeout(() => setVisible(true), 2000);
@@ -16,7 +18,7 @@ export default function WhatsAppButton() {
       href={siteConfig.whatsapp}
       target="_blank"
       rel="noopener noreferrer"
-      aria-label="Написати у WhatsApp"
+      aria-label={t("whatsappLabel")}
       className={`fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-2xl shadow-[#25D366]/30 transition-all duration-500 hover:scale-110 hover:shadow-[#25D366]/50 ${
         visible
           ? "translate-y-0 opacity-100"
