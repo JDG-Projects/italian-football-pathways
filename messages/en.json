@@ -1,0 +1,477 @@
+{
+  "siteConfig": {
+    "tagline": "Your path to sports management in Italy",
+    "addressUA": "Kyiv, Ukraine",
+    "addressIT": "Rome, Italy"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "programs": "Programs",
+    "services": "Services",
+    "forClubs": "For Clubs",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "homepage": {
+    "hero": {
+      "tagline": "Sports Management in Italy",
+      "titleLine1": "Build",
+      "titleHighlight": "a career",
+      "titleLine2": "in football",
+      "subtitle": "We help Ukrainian students access quality education in sports management at Italy's top universities",
+      "cta": "Learn More",
+      "secondaryCta": "Contact Us",
+      "stats": [
+        { "value": "200+", "label": "Students" },
+        { "value": "15", "label": "Universities" },
+        { "value": "95%", "label": "Employment Rate" }
+      ]
+    },
+    "features": {
+      "heading": "Why Choose Us",
+      "subtitle": "We make your dream of studying in Italy a reality",
+      "items": [
+        {
+          "title": "University Partnerships",
+          "description": "Direct agreements with leading Italian universities specializing in sports management",
+          "icon": "🎓"
+        },
+        {
+          "title": "Full Support",
+          "description": "From choosing a program to earning your degree — we're with you every step of the way",
+          "icon": "🤝"
+        },
+        {
+          "title": "Club Internships",
+          "description": "Internship opportunities at Italian football clubs in Serie A and Serie B",
+          "icon": "⚽"
+        },
+        {
+          "title": "Language Training",
+          "description": "Intensive Italian language courses with a focus on sports terminology",
+          "icon": "🗣️"
+        }
+      ]
+    },
+    "testimonials": {
+      "heading": "What Our Students Say",
+      "items": [
+        {
+          "name": "Oleksandr K.",
+          "program": "Master's, Roma Tre University",
+          "text": "Thanks to Italian Football Pathways, I landed an internship at AS Roma. It was the best experience of my life!"
+        },
+        {
+          "name": "Maria T.",
+          "program": "Bachelor's, University of Bologna",
+          "text": "The team helped me with all the paperwork and settling in. I felt at home from day one."
+        },
+        {
+          "name": "Dmytro L.",
+          "program": "MBA Sport Management, SDA Bocconi",
+          "text": "Professional approach and constant support. I recommend them to anyone dreaming of a career in the sports industry."
+        }
+      ]
+    }
+  },
+  "aboutPage": {
+    "hero": {
+      "title": "About Us",
+      "subtitle": "Your trusted partner in sports education"
+    },
+    "mission": {
+      "heading": "Our Mission",
+      "text": "Italian Football Pathways is an educational company that specializes in helping Ukrainian students access quality education in sports management in Italy. We believe every talented student deserves the opportunity to study at Europe's best universities."
+    },
+    "history": {
+      "heading": "Our Story",
+      "text": "Founded in 2020 by Ukrainian graduates of Italian universities, our company combines firsthand experience of studying and working in Italy with a deep understanding of the needs of Ukrainian students. Over 5 years, we've helped more than 200 students launch their careers in sports management.",
+      "stats": [
+        { "value": "200+", "label": "Students" },
+        { "value": "15", "label": "Partner Universities" },
+        { "value": "5", "label": "Years of Experience" },
+        { "value": "95%", "label": "Employment Rate" }
+      ]
+    },
+    "team": {
+      "heading": "Our Team",
+      "text": "Our team is made up of professionals who have walked the same path — from Ukrainian student to sports management specialist in Italy.",
+      "members": [
+        {
+          "name": "Andriy Petrenko",
+          "role": "Founder & CEO",
+          "bio": "SDA Bocconi graduate, 10 years of experience in sports management"
+        },
+        {
+          "name": "Olena Kovalenko",
+          "role": "Director of Educational Programs",
+          "bio": "Roma Tre University Master's graduate, expert in international education"
+        },
+        {
+          "name": "Marco Rossi",
+          "role": "Italy Coordinator",
+          "bio": "Italian partner, liaison with universities and clubs"
+        }
+      ]
+    },
+    "values": {
+      "heading": "Our Values",
+      "items": [
+        {
+          "title": "Quality",
+          "description": "We work exclusively with accredited universities and vetted programs"
+        },
+        {
+          "title": "Personalized Approach",
+          "description": "Every student receives an individual study plan and dedicated support"
+        },
+        {
+          "title": "Transparency",
+          "description": "Clear terms, straightforward pricing, open communication"
+        },
+        {
+          "title": "Results",
+          "description": "95% of our graduates are employed in the sports industry within 6 months"
+        }
+      ]
+    }
+  },
+  "programsPage": {
+    "hero": {
+      "title": "Our Programs",
+      "subtitle": "Choose the educational program that's right for you"
+    },
+    "programs": [
+      {
+        "title": "Bachelor's: Sports Management",
+        "duration": "3 years",
+        "language": "Italian / English",
+        "location": "Rome, Bologna, Milan",
+        "description": "A foundational program for those looking to build a career in the sports industry from the ground up. Includes internships at Italian sports organizations.",
+        "highlights": [
+          "Internships at Serie A clubs",
+          "Double degree",
+          "Scholarships for Ukrainian students"
+        ]
+      },
+      {
+        "title": "Master's: Sport Business & Management",
+        "duration": "2 years",
+        "language": "English",
+        "location": "Milan, Rome",
+        "description": "An advanced program for bachelor's graduates that develops leaders in the sports industry. Focus on strategic management and marketing.",
+        "highlights": [
+          "Case studies from Serie A and UEFA",
+          "Networking with professionals",
+          "Real club project"
+        ]
+      },
+      {
+        "title": "MBA: Sport Management",
+        "duration": "1 year",
+        "language": "English",
+        "location": "Milan (SDA Bocconi)",
+        "description": "An elite program for experienced professionals. One of the top MBA programs in sports in Europe.",
+        "highlights": [
+          "Top 5 in Europe",
+          "Global alumni network",
+          "Guaranteed internship"
+        ]
+      },
+      {
+        "title": "Short-Term Courses",
+        "duration": "2–6 months",
+        "language": "Italian / English",
+        "location": "Online + Rome",
+        "description": "Intensive courses for those who want to quickly gain practical skills in sports management without a long-term commitment.",
+        "highlights": [
+          "Flexible schedule",
+          "University certificate",
+          "Online format available"
+        ]
+      }
+    ],
+    "mapSection": {
+      "heading": "Our Universities on the Map",
+      "markers": [
+        "Rome — Roma Tre University",
+        "Milan — SDA Bocconi"
+      ]
+    }
+  },
+  "servicesPage": {
+    "hero": {
+      "title": "Our Services",
+      "subtitle": "Comprehensive support at every stage of your journey"
+    },
+    "heading": "What We Offer",
+    "subtitle": "From your first consultation to a successful transition to life in Italy",
+    "services": [
+      {
+        "title": "Consultation & Program Selection",
+        "description": "A free consultation to define your goals and find the optimal educational program based on your experience and ambitions.",
+        "features": [
+          "Profile analysis",
+          "Selection of 3–5 programs",
+          "Cost and terms comparison"
+        ]
+      },
+      {
+        "title": "Document Preparation",
+        "description": "Full preparation of your application package: from diploma translations to motivation letters and references.",
+        "features": [
+          "Translation & credential recognition",
+          "Motivation letter",
+          "Reference letters"
+        ]
+      },
+      {
+        "title": "Visa Support",
+        "description": "Assistance with obtaining an Italian student visa, including preparation of all required documents and interview scheduling.",
+        "features": [
+          "Visa document preparation",
+          "Consulate appointment booking",
+          "Interview support"
+        ]
+      },
+      {
+        "title": "Language Training",
+        "description": "Intensive Italian language courses with professional instructors. A dedicated module on sports terminology.",
+        "features": [
+          "Levels A1–C1",
+          "Sports terminology",
+          "CILS/CELI exam preparation"
+        ]
+      },
+      {
+        "title": "Housing Search",
+        "description": "Help finding safe, convenient housing near your university at an affordable price.",
+        "features": [
+          "Student residences",
+          "Private apartments",
+          "Verified landlords"
+        ]
+      },
+      {
+        "title": "Settling In",
+        "description": "Post-arrival support: opening a bank account, registration, health insurance, and getting to know the city.",
+        "features": [
+          "Airport pickup",
+          "Document registration",
+          "Cultural adjustment"
+        ]
+      }
+    ]
+  },
+  "forClubsPage": {
+    "hero": {
+      "title": "For Football Clubs",
+      "subtitle": "Partnerships with Ukrainian and Italian clubs"
+    },
+    "intro": "Italian Football Pathways offers unique partnership programs for football clubs looking to develop their management and exchange expertise with Italian partners.",
+    "offerings": [
+      {
+        "title": "Management Internships",
+        "description": "Organizing internships for Ukrainian club management staff at Italian Serie A and Serie B clubs.",
+        "features": [
+          "2–4 weeks of intensive training",
+          "Access to all club departments",
+          "Mentorship from leadership"
+        ]
+      },
+      {
+        "title": "Knowledge Exchange",
+        "description": "A specialist exchange program between Ukrainian and Italian clubs for knowledge transfer and best practices.",
+        "features": [
+          "Marketing & commercial operations",
+          "Stadium management",
+          "Fan engagement"
+        ]
+      },
+      {
+        "title": "Consulting",
+        "description": "Strategic consulting for Ukrainian clubs based on Italian football business management expertise.",
+        "features": [
+          "Operational audit",
+          "Development strategy",
+          "Brand commercialization"
+        ]
+      },
+      {
+        "title": "Youth Academies",
+        "description": "Assistance in establishing and developing youth academies following the Italian model of player development.",
+        "features": [
+          "Training methodology",
+          "Scouting & selection",
+          "Psychological preparation"
+        ]
+      }
+    ],
+    "cta": {
+      "heading": "Interested in a Partnership?",
+      "text": "Get in touch with us to discuss partnership opportunities for your club.",
+      "button": "Contact Us"
+    }
+  },
+  "faqPage": {
+    "hero": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Answers to the most common questions about studying in Italy"
+    },
+    "categories": [
+      {
+        "title": "Admission & Studies",
+        "items": [
+          {
+            "question": "What are the requirements for admission to a sports management program?",
+            "answer": "For a bachelor's degree, you need a secondary school diploma. For a master's, a bachelor's degree is required. For an MBA, you need a master's degree and at least 3 years of professional experience. A language certificate is also required (IELTS/TOEFL for English-taught programs or CILS/CELI for Italian-taught programs)."
+          },
+          {
+            "question": "How much does tuition cost?",
+            "answer": "Costs vary by program and university. Bachelor's: from €1,000 to €4,000 per year at public universities. Master's: from €2,000 to €8,000 per year. MBA programs: from €30,000 to €50,000 for the full course. We help with finding scholarships and grants."
+          },
+          {
+            "question": "Are there programs taught in English?",
+            "answer": "Yes, many master's and MBA programs are fully available in English. Bachelor's programs are mostly in Italian, but there are exceptions. We recommend learning Italian alongside your studies for better integration."
+          }
+        ]
+      },
+      {
+        "title": "Visas & Documents",
+        "items": [
+          {
+            "question": "How do I get a student visa for Italy?",
+            "answer": "To obtain a type D student visa, you need: an acceptance letter from the university, proof of financial means (approximately €6,000 per year), health insurance, and housing. We fully guide you through this process."
+          },
+          {
+            "question": "How long does the visa process take?",
+            "answer": "Typically, the process takes 4–8 weeks after submitting documents to the consulate. We recommend starting document preparation 3–4 months before the start of your studies."
+          }
+        ]
+      },
+      {
+        "title": "Life in Italy",
+        "items": [
+          {
+            "question": "How much does it cost to live in Italy?",
+            "answer": "Average student expenses: €700–€1,200 per month depending on the city. Rome and Milan are more expensive (€900–€1,200), while smaller cities are cheaper (€600–€800). This includes housing, food, transport, and personal expenses."
+          },
+          {
+            "question": "Can I work while studying?",
+            "answer": "Yes, a student visa allows you to work up to 20 hours per week. Many of our students find part-time jobs at sports organizations, gaining both income and professional experience."
+          },
+          {
+            "question": "Is there a Ukrainian community in Italy?",
+            "answer": "Italy is home to one of the largest Ukrainian communities in Europe — approximately 240,000 people. Major cities have Ukrainian churches, shops, and cultural centers. Our students also form their own support community."
+          }
+        ]
+      },
+      {
+        "title": "Career",
+        "items": [
+          {
+            "question": "What career opportunities are available after graduation?",
+            "answer": "Graduates work at football clubs, sports federations, marketing agencies, media companies, and event organizers. Positions include: sports manager, marketer, scout, analyst, and event coordinator."
+          },
+          {
+            "question": "Do you help with job placement?",
+            "answer": "Yes, we provide career support: CV preparation to European standards, interview coaching, and access to our network of contacts in the sports industry. 95% of our graduates are employed within 6 months of completing their studies."
+          }
+        ]
+      }
+    ]
+  },
+  "contactPage": {
+    "hero": {
+      "title": "Get in Touch",
+      "subtitle": "We're ready to answer your questions and help you take the first step"
+    },
+    "form": {
+      "nameLabel": "Your Name",
+      "namePlaceholder": "Enter your name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "your@email.com",
+      "phoneLabel": "Phone",
+      "phonePlaceholder": "+380 XX XXX XX XX",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Tell us about your goals and questions...",
+      "submit": "Send",
+      "sending": "Sending...",
+      "success": "Thank you! We'll get back to you shortly.",
+      "errors": {
+        "nameRequired": "Please enter your name",
+        "emailRequired": "Please enter your email",
+        "emailInvalid": "Invalid email format",
+        "messageRequired": "Please enter a message",
+        "sendFailed": "Something went wrong. Please try again."
+      }
+    },
+    "info": {
+      "heading": "Contact Information",
+      "items": [
+        { "label": "Phone", "value": "+380 50 123 4567" },
+        { "label": "Email", "value": "info@italianfootballpathways.com" },
+        { "label": "Office in Ukraine", "value": "Kyiv, Ukraine" },
+        { "label": "Office in Italy", "value": "Rome, Italy" }
+      ]
+    },
+    "social": "Follow Us"
+  },
+  "finalCTA": {
+    "heading": "Still unsure?",
+    "text": "Sign up for a free consultation and find out how to start your journey toward a career in sports management in Italy.",
+    "buttonText": "Book a Consultation"
+  },
+  "footer": {
+    "description": "Your trusted partner in sports management education in Italy.",
+    "sections": [
+      {
+        "title": "Navigation",
+        "links": ["home", "about", "programs", "services"]
+      },
+      {
+        "title": "More",
+        "links": ["forClubs", "faq", "contact"]
+      }
+    ],
+    "contactTitle": "Contact",
+    "copyright": "© {year} Italian Football Pathways. All rights reserved."
+  },
+  "common": {
+    "mapLoading": "Loading map...",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "whatsappLabel": "Message us on WhatsApp"
+  },
+  "metadata": {
+    "home": {
+      "title": "Italian Football Pathways — Sports Management in Italy",
+      "description": "Helping Ukrainian students access sports management education at Italy's top universities"
+    },
+    "about": {
+      "title": "About Us — Italian Football Pathways",
+      "description": "Your trusted partner in sports education in Italy"
+    },
+    "programs": {
+      "title": "Programs — Italian Football Pathways",
+      "description": "Choose a sports management program in Italy"
+    },
+    "services": {
+      "title": "Services — Italian Football Pathways",
+      "description": "Comprehensive support at every stage of your journey to studying in Italy"
+    },
+    "forClubs": {
+      "title": "For Clubs — Italian Football Pathways",
+      "description": "Partnership programs for Ukrainian and Italian football clubs"
+    },
+    "faq": {
+      "title": "FAQ — Italian Football Pathways",
+      "description": "Answers to the most common questions about studying in Italy"
+    },
+    "contact": {
+      "title": "Contact — Italian Football Pathways",
+      "description": "Get in touch for a consultation about studying in Italy"
+    }
+  }
+}

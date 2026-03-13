@@ -1,0 +1,477 @@
+{
+  "siteConfig": {
+    "tagline": "Il tuo percorso verso il management sportivo in Italia",
+    "addressUA": "Kiev, Ucraina",
+    "addressIT": "Roma, Italia"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "Chi siamo",
+    "programs": "Programmi",
+    "services": "Servizi",
+    "forClubs": "Per i club",
+    "faq": "FAQ",
+    "contact": "Contatti"
+  },
+  "homepage": {
+    "hero": {
+      "tagline": "Management sportivo in Italia",
+      "titleLine1": "Costruisci",
+      "titleHighlight": "la tua carriera",
+      "titleLine2": "nel mondo del calcio",
+      "subtitle": "Aiutiamo gli studenti ucraini a ottenere un'istruzione di qualità nel management sportivo nelle migliori università italiane",
+      "cta": "Scopri di più",
+      "secondaryCta": "Contattaci",
+      "stats": [
+        { "value": "200+", "label": "Studenti" },
+        { "value": "15", "label": "Università" },
+        { "value": "95%", "label": "Tasso di occupazione" }
+      ]
+    },
+    "features": {
+      "heading": "Perché scegliere noi",
+      "subtitle": "Realizziamo il tuo sogno di studiare in Italia",
+      "items": [
+        {
+          "title": "Partnership con le università",
+          "description": "Accordi diretti con le principali università italiane specializzate in management sportivo",
+          "icon": "🎓"
+        },
+        {
+          "title": "Assistenza completa",
+          "description": "Dalla scelta del programma al conseguimento del diploma: ti accompagniamo in ogni fase",
+          "icon": "🤝"
+        },
+        {
+          "title": "Stage nei club",
+          "description": "Opportunità di stage nei club calcistici italiani di Serie A e Serie B",
+          "icon": "⚽"
+        },
+        {
+          "title": "Preparazione linguistica",
+          "description": "Corsi intensivi di lingua italiana con focus sulla terminologia sportiva",
+          "icon": "🗣️"
+        }
+      ]
+    },
+    "testimonials": {
+      "heading": "Le testimonianze dei nostri studenti",
+      "items": [
+        {
+          "name": "Oleksandr K.",
+          "program": "Laurea magistrale, Università Roma Tre",
+          "text": "Grazie a Italian Football Pathways ho ottenuto uno stage all'AS Roma. È stata la migliore esperienza della mia vita!"
+        },
+        {
+          "name": "Maria T.",
+          "program": "Laurea triennale, Università di Bologna",
+          "text": "Il team mi ha aiutato con tutti i documenti e l'adattamento. Mi sono sentita a casa fin dal primo giorno."
+        },
+        {
+          "name": "Dmytro L.",
+          "program": "MBA Sport Management, SDA Bocconi",
+          "text": "Approccio professionale e supporto costante. Lo consiglio a tutti coloro che sognano una carriera nell'industria sportiva."
+        }
+      ]
+    }
+  },
+  "aboutPage": {
+    "hero": {
+      "title": "Chi siamo",
+      "subtitle": "Il vostro partner affidabile nel mondo della formazione sportiva"
+    },
+    "mission": {
+      "heading": "La nostra missione",
+      "text": "Italian Football Pathways è una società educativa specializzata nell'assistenza agli studenti ucraini per ottenere un'istruzione di qualità nel management sportivo in Italia. Crediamo che ogni studente di talento meriti l'opportunità di studiare nelle migliori università europee."
+    },
+    "history": {
+      "heading": "La nostra storia",
+      "text": "Fondata nel 2020 da laureati ucraini delle università italiane, la nostra azienda unisce l'esperienza di studio e lavoro in Italia con una profonda comprensione delle esigenze degli studenti ucraini. In 5 anni abbiamo aiutato oltre 200 studenti a intraprendere il loro percorso nel management sportivo.",
+      "stats": [
+        { "value": "200+", "label": "Studenti" },
+        { "value": "15", "label": "Università partner" },
+        { "value": "5", "label": "Anni di esperienza" },
+        { "value": "95%", "label": "Tasso di occupazione" }
+      ]
+    },
+    "team": {
+      "heading": "Il nostro team",
+      "text": "Il nostro team è composto da professionisti che hanno percorso in prima persona il cammino da studente ucraino a specialista di management sportivo in Italia.",
+      "members": [
+        {
+          "name": "Andriy Petrenko",
+          "role": "Fondatore e CEO",
+          "bio": "Laureato SDA Bocconi, 10 anni di esperienza nel management sportivo"
+        },
+        {
+          "name": "Olena Kovalenko",
+          "role": "Direttrice dei programmi educativi",
+          "bio": "Laurea magistrale all'Università Roma Tre, esperta di istruzione internazionale"
+        },
+        {
+          "name": "Marco Rossi",
+          "role": "Coordinatore in Italia",
+          "bio": "Partner italiano, collegamento con università e club"
+        }
+      ]
+    },
+    "values": {
+      "heading": "I nostri valori",
+      "items": [
+        {
+          "title": "Qualità",
+          "description": "Collaboriamo esclusivamente con università accreditate e programmi verificati"
+        },
+        {
+          "title": "Approccio personalizzato",
+          "description": "Ogni studente riceve un piano di studio e di accompagnamento personalizzato"
+        },
+        {
+          "title": "Trasparenza",
+          "description": "Condizioni chiare, costi comprensibili, comunicazione aperta"
+        },
+        {
+          "title": "Risultati",
+          "description": "Il 95% dei nostri laureati trova lavoro nell'industria sportiva entro 6 mesi"
+        }
+      ]
+    }
+  },
+  "programsPage": {
+    "hero": {
+      "title": "I nostri programmi",
+      "subtitle": "Scegli il programma formativo più adatto a te"
+    },
+    "programs": [
+      {
+        "title": "Laurea triennale: Management sportivo",
+        "duration": "3 anni",
+        "language": "Italiano / Inglese",
+        "location": "Roma, Bologna, Milano",
+        "description": "Un programma fondamentale per chi vuole costruire una carriera nell'industria sportiva partendo da zero. Include stage presso organizzazioni sportive italiane.",
+        "highlights": [
+          "Stage nei club di Serie A",
+          "Doppio titolo",
+          "Borse di studio per studenti ucraini"
+        ]
+      },
+      {
+        "title": "Laurea magistrale: Sport Business & Management",
+        "duration": "2 anni",
+        "language": "Inglese",
+        "location": "Milano, Roma",
+        "description": "Un programma avanzato per laureati triennali che forma i leader dell'industria sportiva. Focus su gestione strategica e marketing.",
+        "highlights": [
+          "Case study di Serie A e UEFA",
+          "Networking con professionisti",
+          "Progetto con un club reale"
+        ]
+      },
+      {
+        "title": "MBA: Sport Management",
+        "duration": "1 anno",
+        "language": "Inglese",
+        "location": "Milano (SDA Bocconi)",
+        "description": "Un programma d'élite per professionisti esperti. Uno dei migliori MBA in ambito sportivo in Europa.",
+        "highlights": [
+          "Top 5 in Europa",
+          "Rete globale di alumni",
+          "Stage garantito"
+        ]
+      },
+      {
+        "title": "Corsi brevi",
+        "duration": "2-6 mesi",
+        "language": "Italiano / Inglese",
+        "location": "Online + Roma",
+        "description": "Corsi intensivi per chi desidera acquisire rapidamente competenze pratiche nel management sportivo senza impegni a lungo termine.",
+        "highlights": [
+          "Orari flessibili",
+          "Certificato universitario",
+          "Formato online disponibile"
+        ]
+      }
+    ],
+    "mapSection": {
+      "heading": "Le nostre università sulla mappa",
+      "markers": [
+        "Roma — Università Roma Tre",
+        "Milano — SDA Bocconi"
+      ]
+    }
+  },
+  "servicesPage": {
+    "hero": {
+      "title": "I nostri servizi",
+      "subtitle": "Assistenza completa in ogni fase del tuo percorso"
+    },
+    "heading": "Cosa offriamo",
+    "subtitle": "Dalla prima consulenza al successo dell'adattamento in Italia",
+    "services": [
+      {
+        "title": "Consulenza e selezione del programma",
+        "description": "Consulenza gratuita per definire i tuoi obiettivi e selezionare il programma formativo più adatto alla tua esperienza e alle tue ambizioni.",
+        "features": [
+          "Analisi del tuo profilo",
+          "Selezione di 3-5 programmi",
+          "Confronto di costi e condizioni"
+        ]
+      },
+      {
+        "title": "Preparazione dei documenti",
+        "description": "Preparazione completa della documentazione per l'ammissione: dalla traduzione dei diplomi alle lettere motivazionali e di referenza.",
+        "features": [
+          "Traduzione e riconoscimento titoli",
+          "Lettera motivazionale",
+          "Lettere di referenza"
+        ]
+      },
+      {
+        "title": "Assistenza per il visto",
+        "description": "Assistenza per l'ottenimento del visto studentesco per l'Italia, inclusa la preparazione di tutti i documenti necessari e la prenotazione del colloquio.",
+        "features": [
+          "Preparazione documenti per il visto",
+          "Prenotazione al consolato",
+          "Accompagnamento al colloquio"
+        ]
+      },
+      {
+        "title": "Preparazione linguistica",
+        "description": "Corsi intensivi di lingua italiana con docenti professionisti. Modulo speciale di terminologia sportiva.",
+        "features": [
+          "Livelli A1-C1",
+          "Terminologia sportiva",
+          "Preparazione CILS/CELI"
+        ]
+      },
+      {
+        "title": "Ricerca alloggio",
+        "description": "Assistenza nella ricerca di un alloggio sicuro e comodo vicino all'università a un prezzo ottimale.",
+        "features": [
+          "Residenze universitarie",
+          "Appartamenti privati",
+          "Locatori verificati"
+        ]
+      },
+      {
+        "title": "Adattamento in Italia",
+        "description": "Supporto dopo l'arrivo: apertura del conto bancario, registrazione, assicurazione sanitaria, orientamento in città.",
+        "features": [
+          "Accoglienza in aeroporto",
+          "Registrazione documenti",
+          "Adattamento culturale"
+        ]
+      }
+    ]
+  },
+  "forClubsPage": {
+    "hero": {
+      "title": "Per i club calcistici",
+      "subtitle": "Partnership con club ucraini e italiani"
+    },
+    "intro": "Italian Football Pathways offre programmi unici di collaborazione per i club calcistici che desiderano sviluppare il proprio management e scambiare esperienze con partner italiani.",
+    "offerings": [
+      {
+        "title": "Stage per manager",
+        "description": "Organizzazione di stage per il personale dirigenziale dei club ucraini presso i club italiani di Serie A e Serie B.",
+        "features": [
+          "2-4 settimane di formazione intensiva",
+          "Accesso a tutti i dipartimenti del club",
+          "Mentoring dalla dirigenza"
+        ]
+      },
+      {
+        "title": "Scambio di esperienze",
+        "description": "Programma di scambio di specialisti tra club ucraini e italiani per il trasferimento di conoscenze e best practice.",
+        "features": [
+          "Marketing e commerciale",
+          "Gestione dello stadio",
+          "Rapporto con i tifosi"
+        ]
+      },
+      {
+        "title": "Consulenza",
+        "description": "Consulenza strategica per i club ucraini basata sull'esperienza italiana nella gestione del business calcistico.",
+        "features": [
+          "Audit delle attività operative",
+          "Strategia di sviluppo",
+          "Commercializzazione del brand"
+        ]
+      },
+      {
+        "title": "Settori giovanili",
+        "description": "Assistenza nella creazione e nello sviluppo di settori giovanili secondo il modello italiano di formazione dei calciatori.",
+        "features": [
+          "Metodologia di allenamento",
+          "Scouting e selezione",
+          "Preparazione psicologica"
+        ]
+      }
+    ],
+    "cta": {
+      "heading": "Interessati a una collaborazione?",
+      "text": "Contattateci per discutere le opportunità di partnership per il vostro club.",
+      "button": "Contattaci"
+    }
+  },
+  "faqPage": {
+    "hero": {
+      "title": "Domande frequenti",
+      "subtitle": "Risposte alle domande più comuni sullo studio in Italia"
+    },
+    "categories": [
+      {
+        "title": "Ammissione e studio",
+        "items": [
+          {
+            "question": "Quali sono i requisiti per l'ammissione ai programmi di management sportivo?",
+            "answer": "Per la laurea triennale è necessario il diploma di scuola secondaria superiore. Per la laurea magistrale serve una laurea triennale. Per l'MBA è richiesta una laurea magistrale e almeno 3 anni di esperienza professionale. È inoltre necessario un certificato linguistico (IELTS/TOEFL per i programmi in inglese o CILS/CELI per quelli in italiano)."
+          },
+          {
+            "question": "Quanto costa studiare?",
+            "answer": "Il costo dipende dal programma e dall'università. Laurea triennale: da 1.000 a 4.000 euro all'anno nelle università pubbliche. Laurea magistrale: da 2.000 a 8.000 euro all'anno. Programmi MBA: da 30.000 a 50.000 euro per l'intero corso. Aiutiamo nella ricerca di borse di studio e finanziamenti."
+          },
+          {
+            "question": "Esistono programmi in lingua inglese?",
+            "answer": "Sì, molti programmi di laurea magistrale e MBA sono disponibili interamente in inglese. I programmi di laurea triennale sono prevalentemente in italiano, ma esistono eccezioni. Consigliamo di studiare l'italiano parallelamente per un migliore adattamento."
+          }
+        ]
+      },
+      {
+        "title": "Visti e documenti",
+        "items": [
+          {
+            "question": "Come ottenere il visto studentesco per l'Italia?",
+            "answer": "Per ottenere il visto studentesco di tipo D servono: la lettera di ammissione dell'università, la prova di disponibilità finanziaria (circa 6.000 euro all'anno), l'assicurazione sanitaria e un alloggio. Seguiamo interamente questo processo."
+          },
+          {
+            "question": "Quanto tempo richiede il rilascio del visto?",
+            "answer": "Generalmente il processo richiede 4-8 settimane dalla presentazione dei documenti al consolato. Consigliamo di iniziare la preparazione dei documenti 3-4 mesi prima dell'inizio degli studi."
+          }
+        ]
+      },
+      {
+        "title": "Vivere in Italia",
+        "items": [
+          {
+            "question": "Quanto costa vivere in Italia?",
+            "answer": "Le spese medie di uno studente: 700-1.200 euro al mese a seconda della città. Roma e Milano sono più costose (900-1.200 euro), le città più piccole meno (600-800 euro). Questo include: alloggio, vitto, trasporti e spese personali."
+          },
+          {
+            "question": "È possibile lavorare durante gli studi?",
+            "answer": "Sì, il visto studentesco consente di lavorare fino a 20 ore settimanali. Molti dei nostri studenti trovano lavoro part-time in organizzazioni sportive, ottenendo al contempo reddito e esperienza professionale."
+          },
+          {
+            "question": "Esiste una comunità ucraina in Italia?",
+            "answer": "In Italia risiede una delle più grandi comunità ucraine in Europa — circa 240.000 persone. Nelle grandi città ci sono chiese, negozi e centri culturali ucraini. I nostri studenti formano anche una propria comunità di supporto."
+          }
+        ]
+      },
+      {
+        "title": "Carriera",
+        "items": [
+          {
+            "question": "Quali opportunità di carriera ci sono dopo gli studi?",
+            "answer": "I laureati lavorano in club calcistici, federazioni sportive, agenzie di marketing, società di media, organizzatori di eventi. Posizioni: manager sportivo, esperto di marketing, scout, analista, coordinatore di eventi."
+          },
+          {
+            "question": "Offrite assistenza per l'inserimento lavorativo?",
+            "answer": "Sì, forniamo supporto nella ricerca di lavoro: preparazione del CV secondo gli standard europei, preparazione ai colloqui, accesso alla nostra rete di contatti nell'industria sportiva. Il 95% dei nostri laureati trova lavoro entro 6 mesi dal completamento degli studi."
+          }
+        ]
+      }
+    ]
+  },
+  "contactPage": {
+    "hero": {
+      "title": "Contattaci",
+      "subtitle": "Siamo pronti a rispondere alle tue domande e aiutarti a fare il primo passo"
+    },
+    "form": {
+      "nameLabel": "Il tuo nome",
+      "namePlaceholder": "Inserisci il tuo nome",
+      "emailLabel": "Email",
+      "emailPlaceholder": "your@email.com",
+      "phoneLabel": "Telefono",
+      "phonePlaceholder": "+380 XX XXX XX XX",
+      "messageLabel": "Messaggio",
+      "messagePlaceholder": "Raccontaci i tuoi obiettivi e le tue domande...",
+      "submit": "Invia",
+      "sending": "Invio in corso...",
+      "success": "Grazie! Ti contatteremo al più presto.",
+      "errors": {
+        "nameRequired": "Inserisci il tuo nome",
+        "emailRequired": "Inserisci l'email",
+        "emailInvalid": "Formato email non valido",
+        "messageRequired": "Inserisci un messaggio",
+        "sendFailed": "Qualcosa è andato storto. Riprova."
+      }
+    },
+    "info": {
+      "heading": "Informazioni di contatto",
+      "items": [
+        { "label": "Telefono", "value": "+380 50 123 4567" },
+        { "label": "Email", "value": "info@italianfootballpathways.com" },
+        { "label": "Ufficio in Ucraina", "value": "Kiev, Ucraina" },
+        { "label": "Ufficio in Italia", "value": "Roma, Italia" }
+      ]
+    },
+    "social": "Seguici sui social"
+  },
+  "finalCTA": {
+    "heading": "Hai ancora dubbi?",
+    "text": "Prenota una consulenza gratuita e scopri come iniziare il tuo percorso verso una carriera nel management sportivo in Italia.",
+    "buttonText": "Prenota una consulenza"
+  },
+  "footer": {
+    "description": "Il vostro partner affidabile per la formazione nel management sportivo in Italia.",
+    "sections": [
+      {
+        "title": "Navigazione",
+        "links": ["home", "about", "programs", "services"]
+      },
+      {
+        "title": "Altro",
+        "links": ["forClubs", "faq", "contact"]
+      }
+    ],
+    "contactTitle": "Contatti",
+    "copyright": "© {year} Italian Football Pathways. Tutti i diritti riservati."
+  },
+  "common": {
+    "mapLoading": "Caricamento mappa...",
+    "menuOpen": "Apri menu",
+    "menuClose": "Chiudi menu",
+    "whatsappLabel": "Scrivici su WhatsApp"
+  },
+  "metadata": {
+    "home": {
+      "title": "Italian Football Pathways — Management sportivo in Italia",
+      "description": "Aiutiamo gli studenti ucraini a ottenere una formazione nel management sportivo nelle migliori università italiane"
+    },
+    "about": {
+      "title": "Chi siamo — Italian Football Pathways",
+      "description": "Il vostro partner affidabile nel mondo della formazione sportiva in Italia"
+    },
+    "programs": {
+      "title": "Programmi — Italian Football Pathways",
+      "description": "Scegli il programma di management sportivo in Italia"
+    },
+    "services": {
+      "title": "Servizi — Italian Football Pathways",
+      "description": "Assistenza completa in ogni fase del tuo percorso verso lo studio in Italia"
+    },
+    "forClubs": {
+      "title": "Per i club — Italian Football Pathways",
+      "description": "Programmi di partnership per club calcistici ucraini e italiani"
+    },
+    "faq": {
+      "title": "FAQ — Italian Football Pathways",
+      "description": "Risposte alle domande più frequenti sullo studio in Italia"
+    },
+    "contact": {
+      "title": "Contatti — Italian Football Pathways",
+      "description": "Contattaci per una consulenza sullo studio in Italia"
+    }
+  }
+}
