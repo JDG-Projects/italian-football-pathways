@@ -144,7 +144,7 @@ export default function ContactForm() {
 
       <button
         type="submit"
-        className="group w-full rounded-sm bg-gold px-8 py-3.5 text-[13px] font-semibold uppercase tracking-widest text-navy transition-all duration-300 hover:bg-gold-light hover:shadow-lg hover:shadow-gold/20"
+        className="group w-full rounded-sm bg-gold px-8 py-3.5 text-[13px] font-semibold uppercase tracking-widest text-white transition-all duration-300 hover:bg-gold-light hover:shadow-lg hover:shadow-gold/20"
       >
         {form.submit}
         <span className="ml-2 inline-block transition-transform duration-300 group-hover:translate-x-1">

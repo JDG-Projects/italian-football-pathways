@@ -18,7 +18,7 @@ export default function CTAButton({
 
   const variants = {
     primary:
-      "bg-gold text-navy hover:bg-gold-light hover:shadow-lg hover:shadow-gold/20",
+      "bg-gold text-white hover:bg-gold-light hover:shadow-lg hover:shadow-gold/20",
     secondary:
       "border-2 border-navy text-navy hover:bg-navy hover:text-white",
     "outline-white":

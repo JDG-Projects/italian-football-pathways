@@ -21,21 +21,21 @@
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --color-navy: var(--navy);
-  --color-navy-light: var(--navy-light);
-  --color-blue-deep: var(--blue-deep);
-  --color-gold: var(--gold);
-  --color-gold-light: var(--gold-light);
-  --color-gold-dark: var(--gold-dark);
-  --color-cream: var(--cream);
-  --color-cream-dark: var(--cream-dark);
-  --color-warm-gray: var(--warm-gray);
-  --color-warm-gray-light: var(--warm-gray-light);
-  --color-warm-gray-dark: var(--warm-gray-dark);
-  --color-green-accent: var(--green-accent);
-  --color-red-accent: var(--red-accent);
+  --color-background: #F9FAFB;
+  --color-foreground: #1F2937;
+  --color-navy: #1E3A8A;
+  --color-navy-light: #2548a0;
+  --color-blue-deep: #162d6b;
+  --color-gold: #FF6B35;
+  --color-gold-light: #FF7F50;
+  --color-gold-dark: #e55a25;
+  --color-cream: #F9FAFB;
+  --color-cream-dark: #E5E7EB;
+  --color-warm-gray: #6B7280;
+  --color-warm-gray-light: #9CA3AF;
+  --color-warm-gray-dark: #374151;
+  --color-green-accent: #2d6a4f;
+  --color-red-accent: #c1292e;
   --font-display: 'Playfair Display', Georgia, 'Times New Roman', serif;
   --font-body: 'DM Sans', system-ui, sans-serif;
 }

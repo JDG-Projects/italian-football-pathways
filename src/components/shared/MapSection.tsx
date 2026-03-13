@@ -18,14 +18,16 @@ export default function MapSection({ markers }: MapSectionProps) {
   const mapInstanceRef = useRef<unknown>(null);
 
   useEffect(() => {
-    if (!mapRef.current || mapInstanceRef.current) return;
+    if (!mapRef.current) return;
+
+    let cancelled = false;
+    let map: import("leaflet").Map | null = null;
 
     async function initMap() {
       const L = await import("leaflet");
-      if (!mapRef.current) return;
+      if (cancelled || !mapRef.current) return;
 
-      const map = L.map(mapRef.current).setView([43.0, 11.0], 6);
-      mapInstanceRef.current = map;
+      map = L.map(mapRef.current).setView([43.0, 11.0], 6);
 
       L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
         attribution: "&copy; OpenStreetMap contributors",
@@ -43,11 +45,18 @@ export default function MapSection({ markers }: MapSectionProps) {
       });
 
       markers.forEach((m) => {
-        L.marker([m.lat, m.lng], { icon }).addTo(map).bindPopup(m.label);
+        L.marker([m.lat, m.lng], { icon }).addTo(map!).bindPopup(m.label);
       });
     }
 
     initMap();
+
+    return () => {
+      cancelled = true;
+      if (map) {
+        map.remove();
+      }
+    };
   }, [markers]);
 
   return (
