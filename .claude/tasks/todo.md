@@ -1,4 +1,4 @@
-# Italian Football Pathways — Implementation
+# Tviy Sport — Implementation
 
 ## Phases
 - [x] 1. Theme & layout foundation (globals.css, layout.tsx)

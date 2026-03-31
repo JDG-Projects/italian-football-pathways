@@ -60,7 +60,7 @@
         {
           "name": "Oleksandr K.",
           "program": "Laurea magistrale, Università Roma Tre",
-          "text": "Grazie a Italian Football Pathways ho ottenuto uno stage all'AS Roma. È stata la migliore esperienza della mia vita!"
+          "text": "Grazie a Tviy Sport ho ottenuto uno stage all'AS Roma. È stata la migliore esperienza della mia vita!"
         },
         {
           "name": "Maria T.",
@@ -82,7 +82,7 @@
     },
     "mission": {
       "heading": "La nostra missione",
-      "text": "Italian Football Pathways è una società educativa specializzata nell'assistenza agli studenti ucraini per ottenere un'istruzione di qualità nel management sportivo in Italia. Crediamo che ogni studente di talento meriti l'opportunità di studiare nelle migliori università europee."
+      "text": "Tviy Sport è una società educativa specializzata nell'assistenza agli studenti ucraini per ottenere un'istruzione di qualità nel management sportivo in Italia. Crediamo che ogni studente di talento meriti l'opportunità di studiare nelle migliori università europee."
     },
     "history": {
       "heading": "La nostra storia",
@@ -269,7 +269,7 @@
       "title": "Per i club calcistici",
       "subtitle": "Partnership con club ucraini e italiani"
     },
-    "intro": "Italian Football Pathways offre programmi unici di collaborazione per i club calcistici che desiderano sviluppare il proprio management e scambiare esperienze con partner italiani.",
+    "intro": "Tviy Sport offre programmi unici di collaborazione per i club calcistici che desiderano sviluppare il proprio management e scambiare esperienze con partner italiani.",
     "offerings": [
       {
         "title": "Stage per manager",
@@ -436,7 +436,7 @@
       }
     ],
     "contactTitle": "Contatti",
-    "copyright": "© {year} Italian Football Pathways. Tutti i diritti riservati."
+    "copyright": "© {year} Tviy Sport. Tutti i diritti riservati."
   },
   "common": {
     "mapLoading": "Caricamento mappa...",
@@ -446,31 +446,31 @@
   },
   "metadata": {
     "home": {
-      "title": "Italian Football Pathways — Management sportivo in Italia",
+      "title": "Tviy Sport — Management sportivo in Italia",
       "description": "Aiutiamo gli studenti ucraini a ottenere una formazione nel management sportivo nelle migliori università italiane"
     },
     "about": {
-      "title": "Chi siamo — Italian Football Pathways",
+      "title": "Chi siamo — Tviy Sport",
       "description": "Il vostro partner affidabile nel mondo della formazione sportiva in Italia"
     },
     "programs": {
-      "title": "Programmi — Italian Football Pathways",
+      "title": "Programmi — Tviy Sport",
       "description": "Scegli il programma di management sportivo in Italia"
     },
     "services": {
-      "title": "Servizi — Italian Football Pathways",
+      "title": "Servizi — Tviy Sport",
       "description": "Assistenza completa in ogni fase del tuo percorso verso lo studio in Italia"
     },
     "forClubs": {
-      "title": "Per i club — Italian Football Pathways",
+      "title": "Per i club — Tviy Sport",
       "description": "Programmi di partnership per club calcistici ucraini e italiani"
     },
     "faq": {
-      "title": "FAQ — Italian Football Pathways",
+      "title": "FAQ — Tviy Sport",
       "description": "Risposte alle domande più frequenti sullo studio in Italia"
     },
     "contact": {
-      "title": "Contatti — Italian Football Pathways",
+      "title": "Contatti — Tviy Sport",
       "description": "Contattaci per una consulenza sullo studio in Italia"
     }
   }

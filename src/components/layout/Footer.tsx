@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { siteConfig } from "@/lib/config";
+import Image from "next/image";
 
 const navHrefs: Record<string, string> = {
   home: "/",
@@ -29,9 +30,13 @@ export default function Footer() {
         <div className="grid gap-12 lg:grid-cols-12">
           <div className="lg:col-span-5">
             <div className="flex items-center gap-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-sm bg-gold font-display text-sm font-bold text-navy">
-                IF
-              </div>
+              <Image
+                src={siteConfig.logo_transparent}
+                alt={siteConfig.name}
+                width={40}
+                height={40}
+                className="transition-transform duration-300 group-hover:scale-105"
+              />
               <span className="font-display text-lg font-semibold text-white">
                 {siteConfig.name}
               </span>
@@ -74,11 +79,13 @@ export default function Footer() {
             <ul className="space-y-3 text-sm text-white/50">
               <li className="flex items-center gap-2">
                 <span className="text-gold/60">→</span>
-                {siteConfig.phone}
+                <Link href={`tel:${siteConfig.phone}`}>{siteConfig.phone}</Link>
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-gold/60">→</span>
-                {siteConfig.email}
+                <Link href={`mailto:${siteConfig.email}`}>
+                  {siteConfig.email}
+                </Link>
               </li>
             </ul>
           </div>
