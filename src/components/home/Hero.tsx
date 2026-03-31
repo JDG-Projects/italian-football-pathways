@@ -6,10 +6,10 @@ export default function Hero() {
   const stats = t.raw("stats") as Array<{ value: string; label: string }>;
 
   return (
-    <section className="relative -mt-[72px] overflow-hidden bg-navy pt-[72px]">
+    <section className="relative -mt-18 overflow-hidden bg-navy pt-18">
       <div className="absolute inset-0">
-        <div className="absolute -right-40 -top-40 h-[600px] w-[600px] rounded-full bg-gold/5 blur-3xl" />
-        <div className="absolute -bottom-20 -left-20 h-[400px] w-[400px] rounded-full bg-blue-deep/50 blur-3xl" />
+        <div className="absolute -right-40 -top-40 h-150 w-150 rounded-full bg-gold/5 blur-3xl" />
+        <div className="absolute -bottom-20 -left-20 h-100 w-100 rounded-full bg-blue-deep/50 blur-3xl" />
 
         <div className="absolute inset-0 opacity-[0.03]">
           {Array.from({ length: 8 }).map((_, i) => (

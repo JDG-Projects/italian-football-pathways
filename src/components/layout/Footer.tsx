@@ -24,7 +24,7 @@ export default function Footer() {
 
   return (
     <footer className="relative bg-navy">
-      <div className="h-1 bg-gradient-to-r from-green-accent via-gold to-red-accent" />
+      <div className="h-1 bg-linear-to-r from-green-accent via-gold to-red-accent" />
 
       <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
         <div className="grid gap-12 lg:grid-cols-12">

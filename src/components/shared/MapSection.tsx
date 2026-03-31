@@ -61,7 +61,7 @@ export default function MapSection({ markers }: MapSectionProps) {
   return (
     <div
       ref={mapRef}
-      className="h-[400px] w-full rounded-xl border border-gray-100 shadow-sm"
+      className="h-100 w-full rounded-xl border border-gray-100 shadow-sm"
     />
   );
 }
