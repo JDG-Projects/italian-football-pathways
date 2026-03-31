@@ -22,7 +22,7 @@ npm run lint     # Run ESLint
 - Tailwind v4 uses `@import "tailwindcss"` in CSS (no `tailwind.config.js` needed); custom theme tokens go in `src/app/globals.css` under `@theme`
 - React Compiler is enabled (`next.config.ts` → `reactCompiler: true`), so avoid manual `useMemo`/`useCallback` optimizations
 
-**Current state**: Fresh scaffold — no domain logic implemented yet. The Italian football pathways features are yet to be built.
+**Current state**: Fresh scaffold — no domain logic implemented yet. The Tviy Sport features are yet to be built.
 
 ## Task Management
 

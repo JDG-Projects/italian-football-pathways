@@ -8,7 +8,8 @@ export const siteConfig = {
   instagram: "#",
   facebook: "#",
   telegram: "#",
-  logo: '/logo_ts_bg.png'
+  logo: '/logo_ts_bg.png',
+  logo_transparent: '/logo_ts.png'
 };
 
 export const mapMarkers = [

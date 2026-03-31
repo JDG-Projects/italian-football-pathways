@@ -60,7 +60,7 @@
         {
           "name": "Oleksandr K.",
           "program": "Master's, Roma Tre University",
-          "text": "Thanks to Italian Football Pathways, I landed an internship at AS Roma. It was the best experience of my life!"
+          "text": "Thanks to Tviy Sport, I landed an internship at AS Roma. It was the best experience of my life!"
         },
         {
           "name": "Maria T.",
@@ -82,7 +82,7 @@
     },
     "mission": {
       "heading": "Our Mission",
-      "text": "Italian Football Pathways is an educational company that specializes in helping Ukrainian students access quality education in sports management in Italy. We believe every talented student deserves the opportunity to study at Europe's best universities."
+      "text": "Tviy Sport is an educational company that specializes in helping Ukrainian students access quality education in sports management in Italy. We believe every talented student deserves the opportunity to study at Europe's best universities."
     },
     "history": {
       "heading": "Our Story",
@@ -269,7 +269,7 @@
       "title": "For Football Clubs",
       "subtitle": "Partnerships with Ukrainian and Italian clubs"
     },
-    "intro": "Italian Football Pathways offers unique partnership programs for football clubs looking to develop their management and exchange expertise with Italian partners.",
+    "intro": "Tviy Sport offers unique partnership programs for football clubs looking to develop their management and exchange expertise with Italian partners.",
     "offerings": [
       {
         "title": "Management Internships",
@@ -436,7 +436,7 @@
       }
     ],
     "contactTitle": "Contact",
-    "copyright": "© {year} Italian Football Pathways. All rights reserved."
+    "copyright": "© {year} Tviy Sport. All rights reserved."
   },
   "common": {
     "mapLoading": "Loading map...",
@@ -446,31 +446,31 @@
   },
   "metadata": {
     "home": {
-      "title": "Italian Football Pathways — Sports Management in Italy",
+      "title": "Tviy Sport — Sports Management in Italy",
       "description": "Helping Ukrainian students access sports management education at Italy's top universities"
     },
     "about": {
-      "title": "About Us — Italian Football Pathways",
+      "title": "About Us — Tviy Sport",
       "description": "Your trusted partner in sports education in Italy"
     },
     "programs": {
-      "title": "Programs — Italian Football Pathways",
+      "title": "Programs — Tviy Sport",
       "description": "Choose a sports management program in Italy"
     },
     "services": {
-      "title": "Services — Italian Football Pathways",
+      "title": "Services — Tviy Sport",
       "description": "Comprehensive support at every stage of your journey to studying in Italy"
     },
     "forClubs": {
-      "title": "For Clubs — Italian Football Pathways",
+      "title": "For Clubs — Tviy Sport",
       "description": "Partnership programs for Ukrainian and Italian football clubs"
     },
     "faq": {
-      "title": "FAQ — Italian Football Pathways",
+      "title": "FAQ — Tviy Sport",
       "description": "Answers to the most common questions about studying in Italy"
     },
     "contact": {
-      "title": "Contact — Italian Football Pathways",
+      "title": "Contact — Tviy Sport",
       "description": "Get in touch for a consultation about studying in Italy"
     }
   }
