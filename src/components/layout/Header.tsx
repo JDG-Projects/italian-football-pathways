@@ -4,6 +4,7 @@ import { Link, usePathname, useRouter } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
 import { siteConfig } from "@/lib/config";
 import { useLocale, useTranslations } from "next-intl";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 
 const navLinks = [
@@ -55,11 +56,15 @@ export default function Header() {
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
         <Link href="/" className="group flex items-center gap-3">
-          <div className="flex h-9 w-9 items-center justify-center rounded-sm bg-gold font-display text-sm font-bold text-navy transition-transform duration-300 group-hover:scale-105">
-            IF
-          </div>
+          <Image
+            src={siteConfig.logo}
+            alt={siteConfig.name}
+            width={40}
+            height={40}
+            className="transition-transform duration-300 group-hover:scale-105"
+          />
           <span
-            className={`hidden font-display text-sm font-semibold tracking-wide sm:block transition-colors duration-500 ${
+            className={`hidden font-display text-md font-semibold tracking-wide sm:block transition-colors duration-500 ${
               scrolled ? "text-white" : "text-navy"
             }`}
           >
