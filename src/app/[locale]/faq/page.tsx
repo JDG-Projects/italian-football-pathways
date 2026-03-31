@@ -19,7 +19,7 @@ export default async function FAQPage({
 
   return (
     <>
-      <section className="relative -mt-[72px] overflow-hidden bg-navy pt-[72px]">
+      <section className="relative -mt-18 overflow-hidden bg-navy pt-18">
         <div className="absolute inset-0 opacity-[0.03]">
           {Array.from({ length: 5 }).map((_, i) => (
             <div

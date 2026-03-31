@@ -48,7 +48,7 @@ export default function Header() {
 
   return (
     <header
-      className={`sticky top-0 z-[9999] transition-all duration-500 ${
+      className={`sticky top-0 z-9999 transition-all duration-500 ${
         scrolled
           ? "bg-navy/95 shadow-lg shadow-navy/10 backdrop-blur-md"
           : "bg-cream border-b border-cream-dark"
@@ -139,7 +139,7 @@ export default function Header() {
 
       <div
         className={`overflow-hidden transition-all duration-500 md:hidden ${
-          menuOpen ? "max-h-[36rem] opacity-100" : "max-h-0 opacity-0"
+          menuOpen ? "max-h-144 opacity-100" : "max-h-0 opacity-0"
         }`}
       >
         <nav className="border-t border-navy/10 bg-cream px-6 pb-4 pt-4">
