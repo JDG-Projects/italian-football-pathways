@@ -2,9 +2,9 @@
 
 export const siteConfig = {
   name: "Tviy Sport",
-  phone: "+380 50 123 4567",
+  phone: "+380 97 455 32 84",
   email: "info@italianfootballpathways.com",
-  whatsapp: "https://wa.me/380501234567",
+  whatsapp: "https://wa.me/380974553284",
   instagram: "#",
   facebook: "#",
   telegram: "#",

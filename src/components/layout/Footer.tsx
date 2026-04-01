@@ -81,12 +81,6 @@ export default function Footer() {
                 <span className="text-gold/60">→</span>
                 <Link href={`tel:${siteConfig.phone}`}>{siteConfig.phone}</Link>
               </li>
-              <li className="flex items-center gap-2">
-                <span className="text-gold/60">→</span>
-                <Link href={`mailto:${siteConfig.email}`}>
-                  {siteConfig.email}
-                </Link>
-              </li>
             </ul>
           </div>
         </div>
